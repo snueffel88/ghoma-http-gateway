@@ -1,25 +1,58 @@
 {
-  "name": "ghoma-http-gateway",
-  "version": "1.0.0",
-  "description": "HTTP Gateway for G-Homa Wi-Fi plugs",
-  "main": "main.js",
-  "dependencies": {
-    "express": "^4.16.4",
-    "ghoma": "^1.0.7"
+  "_from": "ghoma",
+  "_id": "ghoma@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-jQIMClyoLoarEMdHa6Uew++Ai7cVFzWnyW6OyDC6/YYIfm4poU1k4cGmp5frPa2kGR2hFCWLp/TL3kSWjtZSDA==",
+  "_location": "/ghoma",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ghoma",
+    "name": "ghoma",
+    "escapedName": "ghoma",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "devDependencies": {},
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ghoma/-/ghoma-1.1.0.tgz",
+  "_shasum": "ed9959b44fa631bed81459363154fdd2a4463a1a",
+  "_spec": "ghoma",
+  "_where": "C:\\ghoma",
+  "author": {
+    "name": "rodney42"
+  },
+  "bugs": {
+    "url": "https://github.com/rodney42/node-ghoma/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "jaumard"
+    },
+    {
+      "name": "msteiger"
+    }
+  ],
+  "deprecated": false,
+  "description": "A control server for g-homa wifi plugs.",
+  "engines": {
+    "node": ">=1.5"
+  },
+  "homepage": "https://github.com/rodney42/node-ghoma#readme",
+  "license": "MIT",
+  "main": "ghoma.js",
+  "name": "ghoma",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodney42/node-ghoma.git"
+  },
   "scripts": {
-    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "ghoma",
-    "G-Homa",
-    "Wi-Fi plug",
-    "home automation",
-    "smart home",
-    "IOT"
-  ],
-  "author": "Andrew Tarasenko",
-  "license": "MIT"
+  "version": "1.1.0"
 }

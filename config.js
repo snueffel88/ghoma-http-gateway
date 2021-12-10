@@ -11,9 +11,9 @@
 var dgram = require('dgram');
 
 var helloMessage = new Buffer("HF-A11ASSISTHREAD");
-var gHomaAddress = process.argv[2];
-var controlServer = process.argv[3];
-var controlPort = process.argv[4];
+var gHomaAddress = '192.168.210.4';
+var controlServer = '192.168.001.003';
+var controlPort = 4196;
 var initDone = false;
 var messagesReceive = [];
 var configHandler = function () {
